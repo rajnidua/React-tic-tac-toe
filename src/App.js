@@ -101,7 +101,7 @@ const changeItem = (itemNumber) => {
               onClick ={reloadGame}>Reload the Game</Button>
             </div>
           ):(
-          <h1 className= "text-primary text-uppercase text-center">{isCross? "Cross" : "Circle"}turns</h1>
+          <h1 className= "text-primary text-uppercase text-center">{isCross? "Cross " : "Circle "}turn</h1>
           )}
 
           <div className="grid">
